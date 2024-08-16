@@ -181,13 +181,13 @@ exit
 ^C[*] Exploit completed, but no session was created.
 ```
 we could delve deeper into it and try to make it work but lets try another port number and see what issues it has
-i search for OpenSSH 4.7p1 Debian 8ubuntu1 exploit on google but didnt find much going on in way of exploitdb links or github links
+We search for OpenSSH 4.7p1 Debian 8ubuntu1 exploit on google but didnt find much going on in way of exploitdb links or github links
 there is one older exploit but my gut reaction is to explore other methods for now
-tldr i know this isnt the exploit so i will gloss over it for now and wont use method 2 or 3 for finding an exploit
+tldr This isnt the exploit so let us gloss over it for now and wont use method 2 or 3 to find an exploit
 we finally arrive at our third and final port 445 samba
 this has to be it
 we search "samba 3.0.20 exploit" into google and find   a exploitdb link https://www.exploit-db.com/exploits/16320 
-after reading thru it i realize its referencing a metasploit module. we have metasploit built into our machine so lets jump into that
+after reading thru it we realize it's referencing a Metasploit module. we have metasploit built into our machine so let's jump into that
 we spin up msfconsole and search for this exploit 
 ```
 msf6 > search Samba 3.0.20
@@ -204,7 +204,7 @@ Interact with a module by name or index. For example info 0, use 0 or use exploi
 ```
 sure enough as exploitdb showed us earlier its right there
 we need to select that particular module and then see  what options are available for this module 
-i select the module by typing in use 0 and type in options to see what i need to configure 
+We select the module by typing in use 0 and type in options to see what we need to configure 
 ```
 msf6 > use 0
 [*] No payload configured, defaulting to cmd/unix/reverse_netcat
