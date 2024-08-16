@@ -258,7 +258,7 @@ msf6 exploit(multi/samba/usermap_script) > run
 whoami
 root
 ```
-[initial metasploit shell](https://github.com/Striving-to-learn/CyberSecurity-writeups/blob/main/imagesrepo/lamehtbiniital%20shellimagepicture2.png)
+![initial metasploit shell](https://github.com/Striving-to-learn/CyberSecurity-writeups/blob/main/imagesrepo/lamehtbiniital%20shellimagepicture2.png)
 after searching through the home and root directories we find some flags
 namely the user flag at /home/makis/user.txt and  the root flag at /root/root.txt
 also based on good practice you should always prove for report writing that you got access to the machine by running a whoami command to show the user as well show the hostname, IP address and then cat the flag. 
@@ -284,7 +284,7 @@ lame
 1c13censoreduserflag 
 2af717censoredrootflag
 ```
-[screenshot of the censored flags](https://github.com/Striving-to-learn/CyberSecurity-writeups/blob/main/imagesrepo/lamehtbrootflagscensoredpicture3.png)
+![screenshot of the censored flags](https://github.com/Striving-to-learn/CyberSecurity-writeups/blob/main/imagesrepo/lamehtbrootflagscensoredpicture3.png)
 
 
 
