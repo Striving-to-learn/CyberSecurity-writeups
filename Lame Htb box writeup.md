@@ -125,7 +125,7 @@ Matching Modules
 
 Interact with a module by name or index. For example info 0, use 0 or use exploit/unix/ftp/vsftpd_234_backdoor
 ```
-screenshot https://imgur.com/F59SHNS
+![metasploit screenshot](https://imgur.com/F59SHNS)
 this is the hardest part about using metasploit. finding the right exploit to use and configuring it with all the right values . In this case theres only one potential metasploit module so we do use 0
 we use 0 and we configure the ports and ip addresses 
 ```
@@ -258,7 +258,7 @@ msf6 exploit(multi/samba/usermap_script) > run
 whoami
 root
 ```
-screenshot https://imgur.com/usYATzX 
+[initial metasploit shell](https://imgur.com/usYATzX)
 after searching through the home and root directories we find some flags
 namely the user flag at /home/makis/user.txt and  the root flag at /root/root.txt
 also based on good practice you should always prove for report writing that you got access to the machine by running a whoami command to show the user as well show the hostname, IP address and then cat the flag. 
@@ -284,7 +284,7 @@ lame
 1c13censoreduserflag 
 2af717censoredrootflag
 ```
-https://imgur.com/LeqY7xJ screenshot of the censored flags
+[screenshot of the censored flags](https://imgur.com/LeqY7xJ)
 
 
 
