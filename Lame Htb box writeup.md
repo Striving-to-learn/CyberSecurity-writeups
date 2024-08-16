@@ -125,7 +125,7 @@ Matching Modules
 
 Interact with a module by name or index. For example info 0, use 0 or use exploit/unix/ftp/vsftpd_234_backdoor
 ```
-![metasploit screenshot](https://imgur.com/F59SHNS)
+![metasploit screenshot](https://github.com/Striving-to-learn/CyberSecurity-writeups/blob/main/imagesrepo/metasploitlamhtbfirstimage.png)
 this is the hardest part about using metasploit. finding the right exploit to use and configuring it with all the right values . In this case theres only one potential metasploit module so we do use 0
 we use 0 and we configure the ports and ip addresses 
 ```
